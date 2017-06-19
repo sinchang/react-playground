@@ -1,0 +1,33 @@
+{
+  "name": "react-playground",
+  "productName": "react-playground",
+  "version": "0.0.0",
+  "description": "my awesome react project",
+  "repository": {
+    "url": "sinchang/react-playground",
+    "type": "git"
+  },
+  "scripts": {
+    "dev": "poi",
+    "test": "echo 'no test'",
+    "build": "poi build"
+  },
+  "author": "sinchang <sinchangwen@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-plugin-react-require": "^3.0.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-react-app": "^3.0.0",
+    "poi": "^8.1.2",
+    "poi-preset-eslint-react": "^0.0.3",
+    "react-hot-loader": "next",
+    "surge": "^0.19.0"
+  },
+  "dependencies": {
+    "polished": "^1.1.3",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-live": "^1.7.0",
+    "styled-components": "^2.1.0"
+  }
+}

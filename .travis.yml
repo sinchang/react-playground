@@ -1,0 +1,14 @@
+language: node_js
+node_js: stable
+
+cache:
+  directories:
+    - node_modules
+
+install:
+  - npm install
+
+deploy:
+  provider: surge
+  project: ./dist/
+  domain: react-pg.surge.sh
